@@ -1,24 +1,5 @@
-# AI Music Generation – Python Dependencies
-# Install with:  pip install -r requirements.txt
-
-# Core deep learning
-tensorflow>=2.12.0
-
-# MIDI parsing and music theory
-music21>=9.1.0
-
-# Fast MIDI I/O and export
-pretty_midi>=0.2.10
-
-# Numerical computing
-numpy>=1.23.0
-
-# Optional: GPU acceleration (uncomment if CUDA available)
-# tensorflow-gpu>=2.12.0
-
-# Optional: Audio playback / WAV conversion
-# pyfluidsynth>=1.3.3      # needs FluidSynth system library
-# midi2audio>=0.1.1
-
-# Optional: Visualization
-# matplotlib>=3.7.0
+streamlit
+tensorflow==2.15.0
+numpy==1.26.4
+music21==9.1.0
+pretty_midi==0.2.10
